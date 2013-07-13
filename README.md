@@ -1,4 +1,4 @@
 uik_observer
 ============
 
-Voting palce location gathering application
+Android application to help gather location information on voting stations in Russia.
