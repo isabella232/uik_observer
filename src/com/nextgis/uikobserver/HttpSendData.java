@@ -44,9 +44,11 @@ import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.HttpParams;
 import org.apache.http.protocol.BasicHttpContext;
+import org.apache.http.protocol.HTTP;
 import org.apache.http.protocol.HttpContext;
 import org.apache.http.util.EntityUtils;
 
@@ -132,7 +134,10 @@ public class HttpSendData extends AsyncTask<String, Void, Void> {
             HttpContext localContext = new BasicHttpContext();
 
             try {
-                httppost.setEntity(new StringEntity(sPostBody));                
+            	StringEntity se = new StringEntity(sPostBody, "UTF8");
+            	se.setContentEncoding(new BasicHeader(HTTP.CONTENT_TYPE, "application/json"));
+                httppost.setEntity(se);                
+                httppost.setHeader("Content-type", "application/json");
 
                 // Execute HTTP Post Request
                 HttpResponse response = httpclient.execute(httppost, localContext);
