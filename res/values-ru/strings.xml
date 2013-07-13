@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Наблюдатель</string>
+    <string name="action_settings">Установки</string>
+    <string name="sUIKNoName">Номер УИК</string>
+    <string name="sUserMailName">Электронная почта</string>
+    <string name="sNotes">Примечания</string>
+    <string name="sLocation">Координаты</string>
+    <string name="btSend">Отправить данные</string>
+    
+ 	<string name="compas_N">С</string>
+	<string name="compas_NE">СВ</string>
+	<string name="compas_E">В</string>
+	<string name="compas_SE">ЮВ</string>
+	<string name="compas_S">Ю</string>
+	<string name="compas_SW">ЮЗ</string>
+	<string name="compas_W">З</string>
+	<string name="compas_NW">СЗ</string>
+
+	<string name="coord_lat">Широта</string>
+	<string name="coord_lon">Долгота</string>
+	
+	<string name="sDownLoading">Загрузка...</string>
+	<string name="sSuccess">Данные загружены</string>
+	<string name="sFailed">Данные не загружены</string>
+	
+</resources>

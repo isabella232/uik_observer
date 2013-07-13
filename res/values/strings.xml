@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UIK Observer</string>
+    <string name="action_settings">Settings</string>
+    <string name="sUIKNoName">UIK Nomber</string>
+    <string name="sUserMailName">e-mail</string>
+    <string name="sNotes">Notes</string>
+    <string name="sLocation">Location</string>
+    <string name="btSend">Send data</string>  
+    
+   	<string name="compas_N">N</string>
+	<string name="compas_NE">NE</string>
+	<string name="compas_E">E</string>
+	<string name="compas_SE">SE</string>
+	<string name="compas_S">S</string>
+	<string name="compas_SW">SW</string>
+	<string name="compas_W">W</string>
+	<string name="compas_NW">NW</string>
+	
+	<string name="coord_lat">Latitude</string>
+	<string name="coord_lon">Longtitude</string>
+	
+	<string name="sNetworkUnreach">Network is not available</string>
+    <string name="sDownLoading">Downloading...</string>
+    
+   	<string name="sSuccess">Data upload successful</string>
+   	<string name="sFailed">Data upload failed</string>
+    
+</resources>
